@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    padding: 0px 4px;
+}
+a:hover{
+    border-bottom: 1px solid blue;
+}
+/* navbar */
+#nav-bar{
+    display: flex;
+    text-align: center;
+    background-color: #4867aa;
+    justify-content: space-around;
+    color: white;
+}
+
+#nav-bar img{
+    height:70px;
+    width: 200px;
+}
+#inputs{
+    display: flex;
+    margin-top: 10px;
+}
+
+.password{
+    margin: 0px 20px;
+}
+.password p{
+    margin-block-start: 7px;
+    color: rgb(212, 209, 209);
+}
+.login-btn button{
+    margin: 20px 0px;
+    background-color: #4267b2;
+    color: white;
+    border: 1px solid #30446e;
+    cursor: pointer;
+    outline: none;
+}
+
+.login-btn button:hover{
+    background-color: #4867aa;
+}
+input[type=email],
+.password input[type=password]{
+    border: 1px solid black;
+    outline: none;
+    height: 1.5em;
+    width: 10rem;
+}
+
+/* Account */
+#Account{
+    background-color: #edeff6;
+    display: flex;
+}
+.info{
+    margin: 3% 10%;
+}
+.info h1{
+    margin-top: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.4em;
+    color: #0e385f;
+}
+/* second sidebar */
+.person-info{
+    margin: 3% 5% 0% -3%;
+}
+.creat h1{
+    font-size: 2.5em;
+    margin: 0px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.person-info  p{
+    font-size: 1.5em;
+    font-family: 'Karla', sans-serif;
+}
+
+.radio{
+    display: flex;
+    font-size: 12px !important;
+    margin-top: -2%;
+}
+
+.gender{
+    margin: 5px;    
+    color: gray;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+}
+select{
+    height: 27px;
+    width: 55px;
+    cursor: pointer;
+    outline: none;
+}
+.birthday{
+    margin: 15px 0px;
+}
+.detaill{
+    margin-right: 40%;
+    font-size: 12px !important;
+}
+
+.person-deatil{
+    display: flex;
+    flex-direction: column ;
+}
+
+.sign{
+    height: 2.2em;
+    width: 10em;
+    border: 1.5px solid #2c5115;
+    background-color: #5f9b4c;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    margin: 2% 0px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.link{
+    font-size: 15px !important;
+}
+
+.short-links{
+    margin: 23px 10%;
+}
+/* footer */
+.footer-links{
+    margin: 19px 27%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    padding: 15px 0px;
+}
+
+/* input buttons */
+input[type=text] {
+    width: 40%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(180, 177, 177);
+    outline: none;
+}
+.person-deatil
+input[type=password]{
+    width: 81%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(180, 177, 177);
+    outline: none;
+}
+.person-deatil
+input[type=number]{
+    width: 81%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(180, 177, 177);
+    outline: none;
+}
+
+::placeholder{
+    color: gray;
+    font-size: 18px;
+}
+
+.footer-links a{
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
